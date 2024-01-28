@@ -1,0 +1,62 @@
+body{
+    background-color: #111111;
+}
+
+.container{
+    position: relative;
+    min-width: 350px;
+    text-align: center;
+    margin-top: 5%;
+    background-color: #2B2B2B;
+    width: 34%;
+    left: 33%;
+    height: 85vh;
+    border-radius: 5%;
+    color: white;
+}
+
+#avatar-jessica{
+    position: relative;
+    top: 1rem;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    margin-top: 5%;
+}
+
+#place{
+    position: relative;
+    top: -1rem;
+    color: greenyellow;
+}
+
+#job{
+    margin-top: 5%;
+    padding: 0%;
+}
+
+ul{
+    position: relative;
+    top: 2rem;
+    list-style-type: none;
+    margin: 2rem;
+}
+
+ul li{
+    background-color: #333333;
+    padding: 0.3rem;
+    margin: 0.3rem;
+    width: 80%;
+    height: 1.5rem;
+}
+
+ul li:hover{
+    background-color: greenyellow;
+    color: black;
+    cursor: pointer;
+}
+
+.attribution{
+    margin-top: 2%;
+    color: aliceblue;
+}
