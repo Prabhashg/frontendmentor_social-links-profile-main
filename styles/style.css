@@ -1,21 +1,39 @@
+* {
+    padding: 0;
+}
+
 body{
     background-color: #111111;
 }
 
-.container{
-    position: relative;
-    min-width: 350px;
-    text-align: center;
-    margin-top: 5%;
-    background-color: #2B2B2B;
-    width: 34%;
-    left: 33%;
-    height: 85vh;
-    border-radius: 5%;
+a{
+    text-decoration: none;
     color: white;
 }
 
-#avatar-jessica{
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    height: 90vh;
+    color: white;
+    margin-bottom: 2%;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #2B2B2B;
+    width: 300px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    border-radius: 5%;
+}
+
+img{
     position: relative;
     top: 1rem;
     border-radius: 50%;
@@ -26,28 +44,28 @@ body{
 
 #place{
     position: relative;
-    top: -1rem;
+    bottom: 1em;
     color: greenyellow;
 }
 
-#job{
-    margin-top: 5%;
-    padding: 0%;
-}
-
-ul{
+#job {
     position: relative;
-    top: 2rem;
-    list-style-type: none;
-    margin: 2rem;
+    bottom: 1em;
 }
 
-ul li{
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+li {
+    flex-basis: 30px;
+    list-style: none;
     background-color: #333333;
-    padding: 0.3rem;
-    margin: 0.3rem;
-    width: 80%;
-    height: 1.5rem;
+    width: 200px;
+    border-radius: 5%;
 }
 
 ul li:hover{
@@ -57,6 +75,6 @@ ul li:hover{
 }
 
 .attribution{
-    margin-top: 2%;
+    margin-top: 0;
     color: aliceblue;
 }
